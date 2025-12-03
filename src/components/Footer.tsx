@@ -159,6 +159,30 @@ export const Footer = () => {
                                     <span>Instagram</span>
                                 </Link>
                             </li>
+                            <li>
+                                <Link
+                                    href="https://shopee.co.id/kevinbooks"
+                                    target="_blank"
+                                    className="hover:text-primary transition-colors inline-flex items-center gap-1.5"
+                                >
+                                    <span className="material-symbols-outlined text-[16px] text-[#ee4d2d]">
+                                        shopping_bag
+                                    </span>
+                                    <span>Shopee</span>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="https://www.tiktok.com/@kevinbooks1"
+                                    target="_blank"
+                                    className="hover:text-primary transition-colors inline-flex items-center gap-1.5"
+                                >
+                                    <span className="material-symbols-outlined text-[16px] text-black dark:text-white">
+                                        music_note
+                                    </span>
+                                    <span>TikTok</span>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

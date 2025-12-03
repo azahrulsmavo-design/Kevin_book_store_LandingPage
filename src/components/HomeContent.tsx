@@ -137,6 +137,10 @@ export const HomeContent = () => {
                                                 Lihat Katalog
                                             </Link>
                                         </div>
+                                        <div className="mt-4 flex items-center gap-2 text-white/80 text-sm font-medium relative z-10">
+                                            <span className="material-symbols-outlined text-lg">shopping_bag</span>
+                                            <span>Tersedia di <strong>Shopee</strong> & <strong>TikTok Shop</strong></span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -402,6 +406,182 @@ export const HomeContent = () => {
                                             >
                                                 Pelajari Syaratnya
                                             </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            {/* 7. Belanja Online */}
+                            <section id="belanja-online" className="animate-reveal-scrub">
+                                <div className="rounded-2xl border border-border-soft bg-bg-elevated/60 px-6 py-8 md:px-10 md:py-10 shadow-sm">
+                                    <div className="flex flex-col gap-10 lg:flex-row lg:items-stretch lg:justify-between">
+                                        {/* Kiri: pengenalan + tombol */}
+                                        <div className="max-w-xl">
+                                            <div className="inline-flex items-center gap-2 rounded-full bg-primary-soft/20 px-3 py-1 mb-4">
+                                                <span className="material-symbols-outlined text-sm text-primary">
+                                                    shoppingmode
+                                                </span>
+                                                <span className="text-[11px] font-semibold tracking-[0.22em] uppercase text-muted">
+                                                    Belanja Online
+                                                </span>
+                                            </div>
+                                            <h2 className="text-2xl md:text-3xl font-display font-bold text-primary-dark dark:text-white mb-3">
+                                                Kevin Book Store di Marketplace
+                                            </h2>
+                                            <p className="text-sm md:text-base text-muted font-body leading-relaxed mb-3">
+                                                Kevin Book Store hadir di Shopee dan TikTok Shop sebagai mitra orang tua
+                                                dan sekolah untuk pengadaan LKS dan buku ujian SD, SMP, dan SMA.
+                                                Koleksi lengkap dari penerbit seperti Cemara, Viva Pakarindo, Wajar,
+                                                Fokus, Cerdas, Maestro, Kartika, dan lainnya.
+                                            </p>
+                                            <p className="text-xs md:text-sm text-muted font-body">
+                                                Pengiriman rapi, packing aman, dan ribuan pesanan yang sudah terkirim
+                                                ke berbagai daerah di Indonesia.
+                                            </p>
+
+                                            {/* Tombol ke Shopee & TikTok */}
+                                            <div className="mt-5 flex flex-wrap items-center gap-3">
+                                                <a
+                                                    href="https://shopee.co.id/kevinbooks"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="inline-flex items-center justify-center rounded-full bg-[#ee4d2d] px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-[#ff6633] hover:-translate-y-0.5 transition-all"
+                                                >
+                                                    <span className="material-symbols-outlined text-base mr-1.5">
+                                                        shopping_bag
+                                                    </span>
+                                                    Toko Shopee
+                                                </a>
+
+                                                <a
+                                                    href="https://www.tiktok.com/@kevinbooks1"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="inline-flex items-center justify-center rounded-full bg-black px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-zinc-900 hover:-translate-y-0.5 transition-all"
+                                                >
+                                                    {/* TikTok style: dua dot kecil + note */}
+                                                    <span className="relative flex items-center justify-center mr-2">
+                                                        <span className="absolute -left-2 size-3 rounded-full bg-[#25F4EE]" />
+                                                        <span className="absolute -right-2 size-3 rounded-full bg-[#FE2C55]" />
+                                                        <span className="relative material-symbols-outlined text-base">
+                                                            music_note
+                                                        </span>
+                                                    </span>
+                                                    TikTok @kevinbooks1
+                                                </a>
+
+                                                <span className="text-[11px] text-muted font-body w-full">
+                                                    atau cari:{" "}
+                                                    <span className="font-semibold">“Kevin Book Store”</span> di Shopee
+                                                    &amp; <span className="font-semibold">“@kevinbooks1”</span> di TikTok.
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        {/* Kanan: dua kartu mini – Shopee & TikTok */}
+                                        <div className="w-full max-w-md flex flex-col gap-4">
+                                            {/* Kartu Shopee */}
+                                            <div className="relative overflow-hidden rounded-2xl border border-border-soft bg-page shadow-md">
+                                                <div className="absolute inset-0 bg-gradient-to-br from-[#ee4d2d11] via-transparent to-[#ee4d2d22] pointer-events-none" />
+                                                <div className="relative p-5 flex flex-col gap-3">
+                                                    <div className="flex items-center gap-3">
+                                                        <div className="size-9 rounded-lg bg-[#ee4d2d] flex items-center justify-center text-white text-xs font-bold font-display shadow-md">
+                                                            S
+                                                        </div>
+                                                        <div className="flex flex-col">
+                                                            <span className="text-sm font-semibold text-main">
+                                                                Kevin Book Store
+                                                            </span>
+                                                            <span className="text-[11px] text-muted">
+                                                                Toko Buku · Shopee
+                                                            </span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="grid grid-cols-3 gap-2 mt-1 text-center text-[11px] text-muted font-body">
+                                                        <div className="rounded-lg bg-bg-elevated px-2 py-1.5">
+                                                            <div className="text-xs font-semibold text-main">4.8</div>
+                                                            <div className="mt-0.5 flex justify-center gap-0.5 text-[10px] text-yellow-500">
+                                                                <span className="material-symbols-outlined text-[13px]">
+                                                                    star
+                                                                </span>
+                                                                <span>Rating</span>
+                                                            </div>
+                                                        </div>
+                                                        <div className="rounded-lg bg-bg-elevated px-2 py-1.5">
+                                                            <div className="text-xs font-semibold text-main">700+</div>
+                                                            <div className="mt-0.5">Pengikut</div>
+                                                        </div>
+                                                        <div className="rounded-lg bg-bg-elevated px-2 py-1.5">
+                                                            <div className="text-xs font-semibold text-main">150+</div>
+                                                            <div className="mt-0.5">Produk</div>
+                                                        </div>
+                                                    </div>
+
+                                                    <a
+                                                        href="https://shopee.co.id/kevinbooks"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="mt-2 inline-flex items-center justify-center rounded-lg border border-[#ee4d2d33] bg-[#fff5f1] px-3 py-1.5 text-[11px] font-semibold text-[#ee4d2d] hover:bg-[#ffe2d6] transition-colors"
+                                                    >
+                                                        Buka di Shopee
+                                                        <span className="material-symbols-outlined text-[16px] ml-1">
+                                                            open_in_new
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            {/* Kartu TikTok */}
+                                            <div className="relative overflow-hidden rounded-2xl border border-border-soft bg-page shadow-md">
+                                                <div className="absolute inset-0 bg-gradient-to-br from-[#25F4EE11] via-transparent to-[#FE2C551F] pointer-events-none" />
+                                                <div className="relative p-5 flex flex-col gap-3">
+                                                    <div className="flex items-center gap-3">
+                                                        <div className="relative size-9 rounded-lg bg-black flex items-center justify-center text-white shadow-md overflow-hidden">
+                                                            <span className="absolute -left-1 top-1 size-3 rounded-full bg-[#25F4EE]" />
+                                                            <span className="absolute right-0 bottom-1 size-3 rounded-full bg-[#FE2C55]" />
+                                                            <span className="relative material-symbols-outlined text-[18px]">
+                                                                music_note
+                                                            </span>
+                                                        </div>
+                                                        <div className="flex flex-col">
+                                                            <span className="text-sm font-semibold text-main">
+                                                                @kevinbooks1
+                                                            </span>
+                                                            <span className="text-[11px] text-muted">
+                                                                Kevin Books Store · TikTok
+                                                            </span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="grid grid-cols-3 gap-2 mt-1 text-center text-[11px] text-muted font-body">
+                                                        <div className="rounded-lg bg-bg-elevated px-2 py-1.5">
+                                                            <div className="text-xs font-semibold text-main">340</div>
+                                                            <div className="mt-0.5">Pengikut</div>
+                                                        </div>
+                                                        <div className="rounded-lg bg-bg-elevated px-2 py-1.5">
+                                                            <div className="text-xs font-semibold text-main">340</div>
+                                                            <div className="mt-0.5">Suka</div>
+                                                        </div>
+                                                        <div className="rounded-lg bg-bg-elevated px-2 py-1.5">
+                                                            <div className="text-xs font-semibold text-main">LKS</div>
+                                                            <div className="mt-0.5">Fokus jual</div>
+                                                        </div>
+                                                    </div>
+
+                                                    <a
+                                                        href="https://www.tiktok.com/@kevinbooks1"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="mt-2 inline-flex items-center justify-center rounded-lg border border-zinc-800/40 bg-black px-3 py-1.5 text-[11px] font-semibold text-white hover:bg-zinc-900 transition-colors"
+                                                    >
+                                                        Lihat Profil TikTok
+                                                        <span className="material-symbols-outlined text-[16px] ml-1">
+                                                            open_in_new
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
