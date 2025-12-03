@@ -49,7 +49,7 @@ export const Navbar = () => {
                             </span>
                         </div>
                         <div className="flex flex-col leading-tight">
-                            <span className="text-base sm:text-lg font-display font-bold text-primary-dark dark:text-white">
+                            <span className="text-base sm:text-lg font-display font-bold text-primary-dark">
                                 Kevin Book Store
                             </span>
                             <span className="text-[11px] sm:text-xs text-muted font-body">

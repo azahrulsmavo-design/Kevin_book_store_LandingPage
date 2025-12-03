@@ -263,7 +263,7 @@ export const HomeContent = () => {
                                                     </span>
                                                 </div>
                                                 <div>
-                                                    <h3 className="mb-2 text-xl font-bold font-display text-primary-dark dark:text-white">
+                                                    <h3 className="mb-2 text-xl font-bold font-display text-primary-dark">
                                                         {item.title}
                                                     </h3>
                                                     <p className="text-muted leading-relaxed font-body">
@@ -294,7 +294,7 @@ export const HomeContent = () => {
                                                     menu_book
                                                 </span>
                                             </div>
-                                            <h3 className="mb-3 text-2xl font-bold font-display text-primary-dark dark:text-white">
+                                            <h3 className="mb-3 text-2xl font-bold font-display text-primary-dark">
                                                 LKS (Lembar Kerja Siswa)
                                             </h3>
                                             <p className="mb-8 text-muted leading-relaxed font-body">
@@ -330,7 +330,7 @@ export const HomeContent = () => {
                                                     quiz
                                                 </span>
                                             </div>
-                                            <h3 className="mb-3 text-2xl font-bold font-display text-primary-dark dark:text-white">
+                                            <h3 className="mb-3 text-2xl font-bold font-display text-primary-dark">
                                                 Buku Ujian & Bank Soal
                                             </h3>
                                             <p className="mb-8 text-muted leading-relaxed font-body">
